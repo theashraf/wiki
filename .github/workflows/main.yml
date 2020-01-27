@@ -20,7 +20,7 @@ jobs:
       - run: npm run publish-gh-pages
         working-directory: website
         env:
-          GIT_USER: ChrisOwen101
+          GIT_USER: theashraf
           CURRENT_BRANCH: master
           USE_SSH: true
 

@@ -1,7 +1,7 @@
 const siteConfig = {
   title: "CodeYourFuture Wiki",
   tagline: "",
-  url: "https://codeyourfuture.github.io",
+  url: "https://theahsraf.github.io",
   baseUrl: "/wiki/",
   organizationName: "codeyourfuture",
   projectName: "Wiki",
@@ -9,7 +9,7 @@ const siteConfig = {
   headerLinks: [
     {
       label: "Syllabus",
-      href: "https://codeyourfuture.github.io/syllabus-master/"
+      href: "https://theashraf.github.io/syllabus-master/"
     },
     { label: "Students", doc: "students" },
     { label: "Mentors", doc: "mentors" },
