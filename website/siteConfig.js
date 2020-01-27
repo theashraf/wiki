@@ -3,7 +3,7 @@ const siteConfig = {
   tagline: "",
   url: "https://theahsraf.github.io",
   baseUrl: "/wiki/",
-  organizationName: "codeyourfuture",
+  organizationName: "theashraf",
   projectName: "Wiki",
   users: [{ caption: "Hello" }],
   headerLinks: [
