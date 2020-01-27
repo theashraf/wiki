@@ -21,8 +21,5 @@ jobs:
         working-directory: website
         env:
           GIT_USER: ChrisOwen101
-					CURRENT_BRANCH: master
-					USE_SSH: true  
-
   
   
