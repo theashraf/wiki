@@ -5,7 +5,6 @@ on:
       - master
 jobs:
   publish:
-    name: publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,11 +13,9 @@ jobs:
         with:
           node-version: 12.x
 
-      - name: Install Packages
       - run: npm install
         working-directory: website
 
-      - name: Publish Github Pages
       - run: |
           git config --global user.name  "${{ secrets.USERNAME }}"
           git config --global user.email "${{ secrets.EMAIL }}"
